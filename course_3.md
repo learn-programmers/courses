@@ -1,4 +1,5 @@
 ## Hello, JavaScript!
+관련 키워드: <code>JavaScript</code><code>HTML</code><code>CSS</code><code>웹</code><code>프론트엔드</code><code>입문</code><code>문법</code>
 * 자바스크립트와 처음 만나는 분들을 위한 강의!
 * 부담가질 것 없이, 하루 최소 20분씩만 짬내도 배울 수 있는 강의!
 * 지금 켜둔 이 브라우저 창에서 그대로 실습해보는 강의!
