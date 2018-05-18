@@ -13,6 +13,9 @@
 아래와 같은 실습 환경이 미리 준비되어 있습니다. 실시간으로 코드를 입력하고 내가 입력한 코드가 잘 동작하는지 바로 확인하며 공부할 수 있습니다.
 ![튜토리얼 실습 환경 예시](https://s3.ap-northeast-2.amazonaws.com/grepp-cloudfront/programmers_imgs/learn/course36/course36_preview.png "이런 환경에서 직접 실습 가능합니다.")
 
+###잠깐, 이미 솔리디티 문법은 익숙하고, 튜토리얼은 너무 쉬운가요?
+프로그래머스의 오프라인 심화 과정 [개발자를 위한 이더리움 드릴다운 실습](https://programmers.co.kr/learn/courses/3945) 을 통해 갈증이 나는 부분들을 해결해보세요.
+
 ---
 
 #####아래 사항을 참고해주세요
