@@ -26,6 +26,12 @@
 	.hm-description .btn-block{
 		text-align: right;
 	}
+	.hm-description .panel-heading .panel-title{
+		font-weight: 500;
+	}
+	.hm-description .panel-body{
+
+	}
 	.cs-title-block{
 		margin: 3em 0;
 		text-align: center;
@@ -122,6 +128,14 @@
 	}
 	.cs-feature-practice-table table .practice-detail{
 		word-break: normal;
+	}
+	.cs-feature-practice-table table .practice-important .practice-title{
+		border: 3px solid #006bed;
+		background-color: #0577ff;
+		color: white;
+	}
+	.cs-feature-practice-table table .practice-important .practice-detail{
+		/* background-color: #d1e7d2; */
 	}
 	.cs-feature-target{
 		margin: 3em 0 1em 0;
@@ -221,7 +235,15 @@ cs: Course
 
 
 <!-- 커리큘럼 시작 -->
-<h3 class="cs-feature-title">&#35; 개발자라면 고민해야 할 보안 이슈, 확장성까지 다루는 커리큘럼</h3>
+<h3 class="cs-feature-title">&#35; 8개의 실습 주제와 함께 진행되는 커리큘럼</h3>
+<div class="panel panel-success hm-description">
+        <div class="panel-heading">
+          <h4 class="panel-title">대표 실습 주제: 온라인 쇼핑몰 dApp 개발</h4>
+        </div>
+        <div class="panel-body">
+        	<p>본 커리큘럼에는 총 8개의 실습 주제가 준비되어 있으며, 이 중 3주차에 진행할 7번 째 실습 주제인 'Online Shop dApp' 이 가장 중요합니다. 수강생들은 해당 실습을 통해 상용화 가능한 dApp 서비스의 프로토타입을 만들어볼 수 있으며, 이를 통해 파일 형태의 콘텐츠를 자신의 토큰을 이용해 거래하는 온라인 샵을 개발해보게 됩니다(음악 파일이던, 영상 파일이던). 아래 커리큘럼과 실습 주제들을 모두 꼼꼼히 확인해보세요.</p>
+        </div>
+      </div>
 <h4 class="cs-feature-subtitle">&#35;&#35; 도식화 버전</h4>
 <p><span class="text-primary">이 강의 커리큘럼은 각 내용간의 연계성이 매우 중요해 도식화 버전을 준비하였습니다. 반드시 오른쪽으로 스크롤하며 모든 커리큘럼 내용을 꼼꼼히 확인하세요.</span> 도식화된 커리큘럼과 아래의 텍스트 버전을 함께 열람하시면, 어떤 흐름과 관계성으로 커리큘럼이 진행될지 더욱 명확하게 이해가 됩니다.</p>
 <div class="cs-feature-curriculum">
@@ -417,13 +439,15 @@ cs: Course
 					</ul>
 				</td>
 			</tr>
-			<tr>
-				<td class="practice-title">7) 데이터 거래 플랫폼 개발</td>
+			<tr class="practice-important">
+				<td class="practice-title">7) Online Shop dApp 개발</td>
 				<td class="practice-detail">
 					<ul>
-						<li>IPFS를 이용한 데이터 저장</li>
-						<li>IPFS에 저장된 데이터에 대한 hash Private Ethereum 저장</li>
+						<li style="font-weight:500;">앞선 실습 주제들을 총망라하는 내용을 담은 실습입니다. 파일 형태의 콘텐츠(음악, 동영상 등)를 자신의 토큰 기반으로 거래할 수 있는 온라인 샵 서비스를 만들어봅니다.</li>
 						<li>ERC20 토큰을 이용한 Private Ethereum에 저장된 hash 정보 거래</li>
+						<li>IPFS를 이용한 파일 및 데이터 저장</li>
+						<li>IPFS에 저장된 데이터에 대한 hash Private Ethereum 저장</li>
+						<li>구체적인 토큰 가격, 데이터를 매칭하는 함수 설계</li>
 					</ul>
 				</td>
 			</tr>
