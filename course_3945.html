@@ -192,19 +192,22 @@ cs: Course
 <div class="alert alert-dismissible alert-success cs-contact">
 	<strong>강의에 대해 문의사항이 있으신가요?</strong> 오른쪽 하단의 문의 기능을 활용하셔도 되며, 그 밖에는 learn@programmers.co.kr, <a href="tel:02-539-1885">02-539-1885</a> 로 말씀해주시면 자세히 답변해드리겠습니다.
 </div>
+<div class="alert alert-dismissible alert-success to-interview">
+	<strong><a href="https://programmers.co.kr/pages/course3945_interview" target="_blank">이종협 강사님의 인터뷰(클릭)</a> 가 업데이트 되었습니다!</strong> 읽는 것 만으로도 꿀팁을 잔뜩 얻을 수 있는 인터뷰 내용을 통해, 강의 내용을 더 자세히 파악하고 블록체인에 대한 전문가의 의견도 엿보세요.
+</div>
 
 <div class="card card-block hm-questions-block">
-	<h2 class="hm-questions-title"><span>지금, 이런 생각을 하고있는 개발자신가요?</span></h2>
+	<h2 class="hm-questions-title"><span>이더리움 기반의 데이터 거래 플랫폼을 개발해보며, 깊이있는 내용을 체화해보는 시간.</span></h2>
 	<ul class="hm-questions">
-		<li>솔리디티 문법은 솔직히 개발자라면 익히기 어렵지 않다.</li>
-		<li>Raiden Network, Plasma, Sharding 등 이더리움의 확장성에 대해 더 잘 알고싶다.</li>
-		<li>이더리움 내부 깊숙한 구성요소는 무엇이 있고, 어떻게 연계되어 플랫폼이 돌아가는지 깊게 알고싶다.</li>
-		<li>스마트 컨트랙트 보안 이슈를 방지하기 위해서는, 실제 개발 시 어떤 처리를 해야할까?</li>
+		<li>솔리디티 문법은 간단하다고 느끼고, 이미 간단한 dApp 개발은 해본 개발자에게 추천.</li>
+		<li>Raiden Network, Plasma, Sharding 등 이더리움의 확장성에 대해 더 잘 알고싶다면 더욱 추천.</li>
+		<li>이더리움 내부 깊숙한 구성요소는 무엇이 있고, 어떻게 연계되어 플랫폼이 돌아가는지 깊게 알려면 필수 수강.</li>
+		<li>스마트 컨트랙트 보안 이슈를 방지하기 위해서는, 실제 개발 시 어떤 처리를 해야할지도 함께 고민하는 강의.</li>
 	</ul>
 </div>
 
 <div class="cs-title-block">
-	<h2 class="cs-subtitle">당신의 그 고민을 풀어내줄 강의</h2>
+	<h2 class="cs-subtitle">8개의 실습 주제로 무장!</h2>
 	<h1 class="cs-title text-primary">개발자를 위한 이더리움 드릴다운 실습 코스</h1>
 	<p class="cs-subinfo">Drilldown the fundamentals of Ethereum, and Blockchain for Engineers</p>
 </div>
@@ -244,14 +247,114 @@ cs: Course
         	<p>본 커리큘럼에는 총 8개의 실습 주제가 준비되어 있으며, 이 중 3주차에 진행할 7번 째 실습 주제인 'Online Shop dApp' 이 가장 중요합니다. 수강생들은 해당 실습을 통해 상용화 가능한 dApp 서비스의 프로토타입을 만들어볼 수 있으며, 이를 통해 파일 형태의 콘텐츠를 자신의 토큰을 이용해 거래하는 온라인 샵을 개발해보게 됩니다(음악 파일이던, 영상 파일이던). 아래 커리큘럼과 실습 주제들을 모두 꼼꼼히 확인해보세요.</p>
         </div>
       </div>
-<h4 class="cs-feature-subtitle">&#35;&#35; 도식화 버전</h4>
-<p><span class="text-primary">이 강의 커리큘럼은 각 내용간의 연계성이 매우 중요해 도식화 버전을 준비하였습니다. 반드시 오른쪽으로 스크롤하며 모든 커리큘럼 내용을 꼼꼼히 확인하세요.</span> 도식화된 커리큘럼과 아래의 텍스트 버전을 함께 열람하시면, 어떤 흐름과 관계성으로 커리큘럼이 진행될지 더욱 명확하게 이해가 됩니다.</p>
-<div class="cs-feature-curriculum">
-	<img src="https://s3.ap-northeast-2.amazonaws.com/grepp-cloudfront/programmers_imgs/learn/img_attachment_ethereum_drilldown_01.jpg">
-</div>
+
+      
+<!-- 실습 설명 시작 -->
+<h4 class="cs-feature-subtitle">&#35;&#35; 실습에 대한 자세한 정보</h4>
+<p><span class="text-primary">커리큘럼 내의 실습이 도대체 어떤 내용을 다루는지 자세히 설명드리겠습니다.</span> 위 커리큘럼에 열거된 실습 제목과 연계하여 읽으시면 됩니다.</p>
+<section class="row cs-feature-practice-table">
+	<table class="col-lg-12 col-md-12 col-sm-12">
+		<thead>
+			<tr>
+				<th>실습 제목</th>
+				<th>실습 내용</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td class="practice-title">1) Smart contract life cycle 실습</td>
+				<td class="practice-detail">
+					<ul>
+						<li>기본 Contract 객체 생성</li>
+						<li>Solidity 기본 자료형 선언</li>
+						<li>Function 정의( 생성자, External/internal )</li>
+						<li>Function 옵션 ( Modifier/ constant / view / pure )</li>
+						<li>Contract deploy</li>
+					</ul>
+				</td>
+			</tr>
+			<tr>
+				<td class="practice-title">2) MetaMask를 통한 Ethereum 체험</td>
+				<td class="practice-detail">
+					<ul>
+						<li>Metamask를 이용한  Testnet 트랜잭션 생성</li>
+						<li>Metamask를 이용한 Private Ethereum 트랜잭션 생성</li>
+						<li>Testnet 내에 Contract Deploy</li>
+					</ul>
+				</td>
+			</tr>
+			<tr>
+				<td class="practice-title">3) Private Ethereum Network 구성 실습</td>
+				<td class="practice-detail">
+					<ul>
+						<li>Genesis Json 형식을 통한 Genesis Block 생성</li>
+						<li>Geth rpc/ws 환경 세팅</li>
+						<li>Geth node추가 구성 세팅</li>
+						<li>Mining Set 환경 세팅 (POA/POW)</li>
+					</ul>
+				</td>
+			</tr>
+
+			<tr>
+				<td class="practice-title">4) ERC20 Token 개발</td>
+				<td class="practice-detail">
+					<ul>
+						<li>solidity를 통한 ERC20 토큰 개발</li>
+						<li>solidity zepplin-solidity 모듈을 통한 ERC20 토큰 간단 개발</li>
+						<li>zepple-solidity safemath를 통한 시큐어 코딩 (Integer overflow, Integer underflow)</li>
+					</ul>
+				</td>
+			</tr>
+			<tr>
+				<td class="practice-title">5) 정보 기록 dApp 실습</td>
+				<td class="practice-detail">
+					<ul>
+						<li>Contract 함수 정의 </li>
+						<li>String Mapping을 통한 String 저장</li>
+						<li>Solc 모듈을 통한 Solidity 컴파일</li>
+						<li>web3를 통한 contract deploy</li>
+					</ul>
+				</td>
+			</tr>
+			<tr>
+				<td class="practice-title">6) IPFS를 이용한 정보기록 실습</td>
+				<td class="practice-detail">
+					<ul>
+						<li>IPFS 구축 및 명령어 사용</li>
+						<li>Nodejs를 이용한 Infura IPFS 데이터 저장 및 조회</li>
+					</ul>
+				</td>
+			</tr>
+			<tr class="practice-important">
+				<td class="practice-title">7) Online Shop dApp 개발</td>
+				<td class="practice-detail">
+					<ul>
+						<li style="font-weight:500;">앞선 실습 주제들을 총망라하는 내용을 담은 실습입니다. 파일 형태의 콘텐츠(음악, 동영상 등)를 자신의 토큰 기반으로 거래할 수 있는 온라인 샵 서비스를 만들어봅니다.</li>
+						<li>ERC20 토큰을 이용한 Private Ethereum에 저장된 hash 정보 거래</li>
+						<li>IPFS를 이용한 파일 및 데이터 저장</li>
+						<li>IPFS에 저장된 데이터에 대한 hash Private Ethereum 저장</li>
+						<li>구체적인 토큰 가격, 데이터를 매칭하는 함수 설계</li>
+					</ul>
+				</td>
+			</tr>
+			<tr>
+				<td class="practice-title">8) Contract공격/방어 실습 Wargame</td>
+				<td class="practice-detail">
+					<ul>
+						<li>각 Bug를 담은 Contract 생성</li>
+						<li>외부 contract call 실습</li>
+						<li>Metamask와 Remix를 이용한 deploy</li>
+						<li>취약점 점검 툴(oyente, porosity) 실습</li>
+					</ul>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</section>
+<!-- 실습 설명 끝 -->
 
 <h4 class="cs-feature-subtitle">&#35;&#35; 텍스트 버전</h4>
-<p><span class="text-primary">위의 도식화 버전과 연계해서 함께 보세요. 기업 제출용 커리큘럼 문서가 필요하신 경우, learn@programmers.co.kr 을 통해 따로 문의해주세요.</span> 강의 기본 정보 및 커리큘럼을 적절히 요약하여 보내드리겠습니다.</p>
+<p><span class="text-primary">8개의 실습 주제와 연계되는 커리큘럼입니다. 기업 제출용 개별 문서가 필요하신 경우 learn@programmers.co.kr 을 통해 따로 문의해주세요.</span> 강의 기본 정보 및 커리큘럼을 적절히 요약하여 보내드리겠습니다.</p>
 <section class="row cs-feature-curriculum-table">
 	<table class="col-lg-12 col-md-12 col-sm-12">
 		<thead>
@@ -363,110 +466,6 @@ cs: Course
 </section>
 <!-- 커리큘럼 끝 -->
 
-<!-- 실습 설명 시작 -->
-<h4 class="cs-feature-subtitle">&#35;&#35; 실습에 대한 자세한 정보</h4>
-<p><span class="text-primary">커리큘럼 내의 실습이 도대체 어떤 내용을 다루는지 자세히 설명드리겠습니다.</span> 위 커리큘럼에 열거된 실습 제목과 연계하여 읽으시면 됩니다.</p>
-<section class="row cs-feature-practice-table">
-	<table class="col-lg-12 col-md-12 col-sm-12">
-		<thead>
-			<tr>
-				<th>실습 제목</th>
-				<th>실습 내용</th>
-			</tr>
-		</thead>
-		<tbody>
-			<tr>
-				<td class="practice-title">1) Smart contract life cycle 실습</td>
-				<td class="practice-detail">
-					<ul>
-						<li>기본 Contract 객체 생성</li>
-						<li>Solidity 기본 자료형 선언</li>
-						<li>Function 정의( 생성자, External/internal )</li>
-						<li>Function 옵션 ( Modifier/ constant / view / pure )</li>
-						<li>Contract deploy</li>
-					</ul>
-				</td>
-			</tr>
-			<tr>
-				<td class="practice-title">2) MetaMask를 통한 Ethereum 체험</td>
-				<td class="practice-detail">
-					<ul>
-						<li>Metamask를 이용한  Testnet 트랜잭션 생성</li>
-						<li>Metamask를 이용한 Private Ethereum 트랜잭션 생성</li>
-						<li>Testnet 내에 Contract Deploy</li>
-					</ul>
-				</td>
-			</tr>
-			<tr>
-				<td class="practice-title">3) Private Ethereum Network 구성 실습</td>
-				<td class="practice-detail">
-					<ul>
-						<li>Genesis Json 형식을 통한 Genesis Block 생성</li>
-						<li>Geth rpc/ws 환경 세팅</li>
-						<li>Geth node추가 구성 세팅</li>
-						<li>Mining Set 환경 세팅 (POA/POW)</li>
-					</ul>
-				</td>
-			</tr>
-
-			<tr>
-				<td class="practice-title">4) ERC20 Token 개발</td>
-				<td class="practice-detail">
-					<ul>
-						<li>solidity를 통한 ERC20 토큰 개발</li>
-						<li>solidity zepplin-solidity 모듈을 통한 ERC20 토큰 간단 개발</li>
-						<li>zepple-solidity safemath를 통한 시큐어 코딩 (Integer overflow, Integer underflow)</li>
-					</ul>
-				</td>
-			</tr>
-			<tr>
-				<td class="practice-title">5) 정보 기록 dApp 실습</td>
-				<td class="practice-detail">
-					<ul>
-						<li>Contract 함수 정의 </li>
-						<li>String Mapping을 통한 String 저장</li>
-						<li>Solc 모듈을 통한 Solidity 컴파일</li>
-						<li>web3를 통한 contract deploy</li>
-					</ul>
-				</td>
-			</tr>
-			<tr>
-				<td class="practice-title">6) IPFS를 이용한 정보기록 실습</td>
-				<td class="practice-detail">
-					<ul>
-						<li>IPFS 구축 및 명령어 사용</li>
-						<li>Nodejs를 이용한 Infura IPFS 데이터 저장 및 조회</li>
-					</ul>
-				</td>
-			</tr>
-			<tr class="practice-important">
-				<td class="practice-title">7) Online Shop dApp 개발</td>
-				<td class="practice-detail">
-					<ul>
-						<li style="font-weight:500;">앞선 실습 주제들을 총망라하는 내용을 담은 실습입니다. 파일 형태의 콘텐츠(음악, 동영상 등)를 자신의 토큰 기반으로 거래할 수 있는 온라인 샵 서비스를 만들어봅니다.</li>
-						<li>ERC20 토큰을 이용한 Private Ethereum에 저장된 hash 정보 거래</li>
-						<li>IPFS를 이용한 파일 및 데이터 저장</li>
-						<li>IPFS에 저장된 데이터에 대한 hash Private Ethereum 저장</li>
-						<li>구체적인 토큰 가격, 데이터를 매칭하는 함수 설계</li>
-					</ul>
-				</td>
-			</tr>
-			<tr>
-				<td class="practice-title">8) Contract공격/방어 실습 Wargame</td>
-				<td class="practice-detail">
-					<ul>
-						<li>각 Bug를 담은 Contract 생성</li>
-						<li>외부 contract call 실습</li>
-						<li>Metamask와 Remix를 이용한 deploy</li>
-						<li>취약점 점검 툴(oyente, porosity) 실습</li>
-					</ul>
-				</td>
-			</tr>
-		</tbody>
-	</table>
-</section>
-<!-- 실습 설명 끝 -->
-
 <!-- 수강 대상 시작 -->
 
 <section class="row cs-feature-target">
@@ -537,7 +536,7 @@ cs: Course
 <h4 class="cs-feature-subtitle">&#35;&#35; 수강료 안내</h4>
 
 <div class="cs-title-block">
-	<h2 class="cs-subtitle">5/21(월)까지 진행되는 최저가 할인 기간이 끝나기 전에</h2>
+	<h2 class="cs-subtitle">5/31 까지 진행되는 최저가 할인 기간이 끝나기 전에</h2>
 	<h1 class="cs-title text-danger">풍부한 실습, 깊은 이론이 준비된 코스에 참여하세요</h1>
 	<p class="cs-subinfo">블록체인에 대해 무엇을 고민하시던, 해결하실 수 있는 교육과정으로 답해드리겠습니다.</p>
 </div>
