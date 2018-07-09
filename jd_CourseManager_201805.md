@@ -9,7 +9,7 @@
 - 그렙 회사 소개: http://www.grepp.co
 - 개발자의 학습과 훈련을 위한 교육 사이트 '프로그래머스': http://www.programmers.co.kr
 - 학습 도우미 역할을 하는 '프로그래머스 스쿨': https://school.programmers.co.kr/
-- 한국판 스택오버플로우 '해시코드': http://hashcode.co.kr/f 
+- 한국판 스택오버플로우 '해시코드': http://hashcode.co.kr/
 - 프로그래밍 활용 능력 자격증 'COS Pro': https://www.ybmit.com/cos_pro/
 - 관련 기사 '그렙, 한국의 코드카데미 꿈꾸다' (블로터): http://www.bloter.net/archives/252759
 - 관련 기사 '개발자의 개발자에 의한, 개발자를 위한 채용 플랫폼' (플래텀) : http://platum.kr/archives/94707
